@@ -2,8 +2,6 @@ package com.example.myapplication
 
 import org.junit.Test
 
-import org.junit.Assert.*
-
 /**
  * Example local unit test, which will execute on the development machine (host).
  *
@@ -11,7 +9,12 @@ import org.junit.Assert.*
  */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun test() {
+        var test1 :Test1 = Test1();
+        var test2 :Test2 = Test2();
+        println(test2.kotlin2java())
     }
+
+
+
 }
